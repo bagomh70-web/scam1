@@ -1,8 +1,8 @@
 <?php
 // db.php — use environment variables (never hardcode credentials)
-$DB_HOST = getenv('DB_HOST');
-$DB_USER = getenv('DB_USER');
-$DB_PASS = getenv('DB_PASS');
+$DB_HOST = getenv('mysql.railway.internal');
+$DB_USER = getenv('root');
+$DB_PASS = getenv('UALGGaxYcSxFIbVTCeuNSBAOApciljsN');
 $DB_NAME = getenv('DB_NAME');
 
 if (!$DB_HOST || !$DB_USER || !$DB_NAME) {
